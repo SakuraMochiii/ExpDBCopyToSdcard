@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blackground">
+
+    <Button
+        android:id="@+id/copy_click"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:paddingLeft="5dp"
+        android:drawableLeft="@drawable/copy"
+        android:textSize="16sp"
+        android:background="@drawable/border_line"
+        android:text="@string/copy_db_to_sdcard" />
+
+</LinearLayout>
