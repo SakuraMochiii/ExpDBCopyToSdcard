@@ -23,10 +23,10 @@ public class FileUtils {
             while ((length = inputStream.read(buffer)) > 0) {
                 outputStream.write(buffer, 0, length);
             }
-            return true; // 文件复制成功
+            return true; // file update success
         } catch (IOException e) {
             e.printStackTrace();
-            return false; // 文件复制失败
+            return false; // file update fail
         } finally {
             try {
                 if (inputStream != null) {
